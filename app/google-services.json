@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089500594843",
+    "project_id": "payfor-85e3f",
+    "storage_bucket": "payfor-85e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089500594843:android:db4374df2549273847fc3e",
+        "android_client_info": {
+          "package_name": "com.example.payfor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089500594843-n6g2safolmqkq1os8jnp7j5pq5961mj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCweYGEOd00-hvSaTQPNfYwqeFJg9hRmaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089500594843-n6g2safolmqkq1os8jnp7j5pq5961mj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

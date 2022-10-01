@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_lin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ro'yhatdan O'tish"
+        android:fontFamily="casual"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFF27B"
+        android:textSize="25sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="#5E5E5E"
+        android:hint="Familiya"
+        android:paddingStart="15dp"
+        android:background="@drawable/back_ed"
+        android:layout_marginBottom="10dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="#5E5E5E"
+        android:hint="Ism"
+        android:paddingStart="15dp"
+        android:background="@drawable/back_ed"
+        android:layout_marginBottom="10dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="#5E5E5E"
+        android:hint="Email"
+        android:paddingStart="15dp"
+        android:background="@drawable/back_ed"
+        android:layout_marginBottom="10dp"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="#5E5E5E"
+        android:hint="Password"
+        android:paddingStart="15dp"
+        android:background="@drawable/back_ed"
+        android:layout_marginBottom="10dp"
+        tools:ignore="RtlSymmetry" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saqbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saqlash"
+            android:background="@drawable/back_but"
+            android:layout_marginEnd="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
